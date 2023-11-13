@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.App {
+  /* text-align: center; */
+}
+
+.App-header {
+  background-color: #c5dec7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 1vmin);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.green-bg {
+  background-color: #1aab26 !important;
+}
+
+.light-link {
+  color: #e0ffe3 !important;
+}
+
+.light-link:hover {
+  color: #c1dec4 !important;
+}
+
+.no-margin-left { margin-left: 0 !important }
+
+.pad-right { margin-right: 25px;}
+
+.diet-list {
+  background-color: #a8bdaa !important;
+}
+
+.centered {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.onRight {
+  text-align: right !important;
+}
+
+.mealFlex {
+  display: flex;
+  height: 35px;
+}
+
+#mealText {
+  width: 95%;
+}
